@@ -5,8 +5,8 @@ import (
 	"time"
 	"os"
 
-	"github.com/Desk888/go-jwt/initializers"
-	"github.com/Desk888/go-jwt/models"
+	"github.com/Desk888/go-jwt/internal/initializers"
+	"github.com/Desk888/go-jwt/internal/models"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"golang.org/x/crypto/bcrypt"

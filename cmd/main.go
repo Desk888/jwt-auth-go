@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/Desk888/go-jwt/controllers"
-	"github.com/Desk888/go-jwt/initializers"
-	"github.com/Desk888/go-jwt/middleware"
+	"github.com/Desk888/go-jwt/internal/controllers"
+	"github.com/Desk888/go-jwt/internal/middleware"
+	"github.com/Desk888/go-jwt/internal/initializers"
 	"github.com/gin-gonic/gin"
 )
 
